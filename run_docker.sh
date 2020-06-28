@@ -12,4 +12,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 1000:80 submission
+docker run -p 1200:80 submission

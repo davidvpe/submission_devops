@@ -1,1 +1,18 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Here I'm not really sure which output is requested, so I'm adding both
+
+Output from ./run_kubernetes.sh
+
+NAME         READY   STATUS    RESTARTS   AGE
+submission   1/1     Running   0          4m10s
+Forwarding from 127.0.0.1:1200 -> 80
+Forwarding from [::1]:1200 -> 80
+Handling connection for 1200
+
+Output from ./make_prediction.sh
+
+Port: 1200
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
